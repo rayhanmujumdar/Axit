@@ -1,0 +1,583 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+/* nav-bar section css start from here*/
+.nav{
+    width: 100%;
+    background: black;
+    padding: 10px 0;
+}
+.nav-link{
+    color: white !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-left: 35px !important;
+}
+.nav-link:hover{
+    color: #ba6c33 !important;
+}
+.bar i{
+    color: white;
+}
+/* nav-bar section css end from here*/
+/* header section start from here */
+.header{
+    width: 100%;
+    background-image: url(../img/Axit\ PSD.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.all-content{
+    height: 100vh;
+    align-items: center;
+}
+.content-text h1{
+    font-size: 60px;
+}
+.content-text span{
+    font-weight: 100;
+    color: #ba6c33;
+}
+.content-text h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    padding: 17px 0;
+}
+.header .content-text .line{
+    height: 4px;
+    width: 82px;
+    background: white;
+    margin-bottom: 37px;
+    margin-top: 20px;
+}
+.content-text p{
+    font-family: 'Raleway', sans-serif;
+    color: gray !important;
+}
+.content-text button{
+    padding: 10px 30px;
+    border: none;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    margin-top: 44px;
+    transition: 0.5s;
+}
+.content-text button:hover{
+    background: #ba6c33;
+    border: none;
+    border-radius: 4px;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+/* form section */
+.header-from .card{
+    margin-left: 19rem;
+    border: none;
+}
+.header-from .card h2{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.header-from .card .card-header h2 span{
+    color: #fca86b;
+}
+.card-body .form-group .form-control{ 
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
+    margin-bottom: 30px;
+}
+.card-body .form-group .form-control:focus{
+    box-shadow: none;
+    
+}
+.header-from .card-body{
+    padding: 1rem 2rem;
+}
+.card-footer .submit-btn{
+    width: 100%;
+    padding: 15px 5px;
+    border: none;
+    background: #ff9b51;
+    font-weight: 600;
+    color: white;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+.card-footer .submit-btn:hover{
+    background: black;
+    transition: 0.5s;
+}
+.header-from .card .card-footer {
+    padding: 0;
+}
+/* header section end from here */
+/* icon section start from here  */
+.icon-section{
+    width: 100%;
+    border-bottom: 1px solid rgb(160, 159, 159);
+}
+.icon-section .icon-text h2{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.icon-section .icon-text p{
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+}
+.icons ul{
+   margin-bottom: 0;
+   margin-top: 24px;
+}
+.icons ul li{
+    display: inline-block;
+    font-size: 50px;
+}
+.icons ul li a{
+    padding-left: 47px;
+    filter: grayscale(1);
+    opacity: 0.6;
+}
+.icons ul li a:hover{
+    color: black;
+    opacity: 1;
+}
+/* icon section end from here  */
+/*  feature-1 tap section start from here */
+.feature-1{
+    width: 100%;
+    padding: 200px 0;
+    background: #f5f5f5;
+}
+.feature-1 .tab ul li{
+    background-color: #333333;
+    border: 1px solid white;
+    text-align: center;
+    padding: 48px 0;
+    font-weight: 700;
+    color: white;
+    width: 118px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.item-1 h3,.item-2 h3,.item-3 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+}
+.item-1 p,.item-2 p,.item-3 p{
+    padding: 43px 0;
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+.item-1 button,.item-2 button,.item-3 button{
+    padding: 12px 32px;
+    border: none;
+    background-color: #ff8b38;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+}
+.item-1 button:hover,.item-2 button:hover,.item-3 button:hover{
+    color: black;
+    font-weight: 700;
+}
+.tab-img{
+    display: flex;
+    align-items: center;
+}
+.feature-1 .tab .active{
+    background-color: #ff8b38 !important;
+}
+.feature-1 .tab .tab-1{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.feature-1 .tab .tab-3{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+/*  feature-1 tap section end from here */
+/* feature-2 section start from here */
+.feature-2{
+    width: 100%;
+}
+.feature-2 .feature-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.feature-2 .feature-text .line{
+    height: 3px;
+    width: 82px;
+    background: #ff8b38;
+    margin-bottom: 33px;
+    margin-top: 34px;
+}
+.feature-2 .feature-text p{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+.feature-2 .icon i{
+    height: 50px; 
+    width: 50px;
+    color: #ff8b38;
+    text-align: center;
+    border: 2px solid #ff8b38;
+    line-height: 46px;
+    border-radius: 100%;
+    margin-top: 6px;
+}
+.icon-text h6,.icon-text p{
+    font-family: 'Open Sans', sans-serif;
+}
+.icon-text h6{
+    font-weight: 700;
+}
+.feature-2-icon{
+    margin: 35px 0;
+}
+/* feature-2 section end from here */
+/* feature-3 section start from here */
+.feature-3{
+    width: 100%;
+    padding: 150px 0;
+    color: #f5f5f5;
+}
+.feature-3 .feature-3-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+.feature-3 .feature-3-text .line{
+    height: 3px;
+    width: 82px;
+    background: #ff8b38;
+    margin-bottom: 33px;
+    margin-top: 34px;
+}
+.feature-3 .feature-3-text p{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+/* feature-3 section end from here */
+/* feature-4 section start from here */
+.feature-4{
+    width: 100%;
+    padding-bottom: 100px;
+}
+.feature-4 .top-item-text h1{
+    font-family: 'Raleway', sans-serif;
+}
+.feature-4 .top-item-text .line{
+    height: 3px;
+    width: 82px;
+    background: #ff8b38;
+    margin: 31px auto;
+}
+.feature-4 .top-item-text p{
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+}
+/* three item section start -------------*/
+.item-space{
+    margin: 80px 0;
+}
+.feature-4 .icon i{
+    border: 2px solid #ff8b38;
+    padding: 20px 24px;
+    font-size: 32px;
+    border-radius: 100%;
+    color: #ff8b38;
+}
+.icon-key i{
+    padding: 21px 20px !important;
+}
+.feature-4 .item-1-text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 20px 0;
+}
+.feature-4 .item-1-text p{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+/* feature-4 section end from here */
+/* price section start from here */
+.pricing{
+    width: 100%;
+    padding-bottom: 80px;
+    background-color: #f5f5f5;
+}
+.pricing .pricing-head h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.pricing .pricing-head .line{
+    height: 2px;
+    width: 82px;
+    background: #ff8b38;
+    margin: 30px auto;
+}
+.pricing .pricing-head p{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+/* price-table section */
+.price-table .col-md-4{
+    --bs-gutter-x: 2.5rem;
+}
+.pricing .price-table{
+    padding: 80px 0;
+    align-items: flex-end;
+}
+.all-contant{
+    border: none;
+}
+.all-contant .card-header{
+    background: #333333;
+    padding: 0;
+    border-bottom: 2px solid white;
+}
+.all-contant .card-header .title{
+    padding: 11px 0;
+    font-size: 28px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.all-contant .card-body{
+    padding: 0;
+    background: #333333;
+
+}
+.all-contant .card-body .price{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 0;
+}
+.all-contant .card-body .price span{
+    font-size: 33px;
+}
+.all-contant .card-body .sub{
+    color: #8a8a8a;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.all-contant .left-body,.all-contant .right-body{
+    border-bottom: 7px solid #ff8b38;
+}
+.all-contant .offer-list{
+    background-color: white;
+}
+.all-contant .offer-list ul{
+    padding-left: 0%;
+    margin-bottom: 0;
+}
+.all-contant .offer-list ul li{
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 9px 0;
+    color: gray;
+    text-transform: uppercase;
+}
+.middle .popular{
+    padding: 13px 0;
+    background: #ff8b38;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+/* price section end from here */
+/* feature-5 section start from here */
+.feature-5{
+    width: 100%;
+    padding: 80px 0;
+}
+.feature-5-head h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.feature-5 .feature-5-head .line{
+    height: 3px;
+    width: 82px;
+    background: #ff8b38;
+    margin: 30px auto;
+}
+.feature-5-head p{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+.testimonial{
+    margin-top: 80px;
+}
+.every-text{
+    background: #f5f5f5;
+    margin-bottom: 45px;
+}
+.every-text p{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+}
+.feature-5 .profile h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    font-weight: 800;
+}
+.feature-5 .profile p{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    font-size: 15px;
+}
+.profile{
+    padding-top: 12px;
+}
+.profile-pic{
+    padding: 0;
+}
+.profile-pic img{
+    width: 91px;
+}
+/* feature-5 section end from here */
+/* coustom panel start from here */
+.custom-panel{
+    width: 100%;
+    background-image: url(../img/custom\ panel.jpg);
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 100px 0;
+}
+.custom-panel .custom-content h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 8px;
+}
+.custom-panel .custom-content .line{
+    height: 3px;
+    width: 82px;
+    background: white;
+    margin: 30px auto;
+}
+.custom-panel .custom-content p{
+    font-family: 'Raleway', sans-serif;
+    color: #7a7f7a;
+}
+.custom-panel .custom-content button{
+    padding: 10px 35px;
+    border: none;
+    background: transparent;
+    border: 3px solid white;
+    margin-top: 44px;
+    transition: 0.5s;
+}
+.custom-panel .custom-content button a{
+    color: white;
+    text-decoration: none;
+}
+.custom-content{
+    padding: 100px 0;
+}
+/* custom panel end from here */
+/* form section start from here */
+.form-section{
+    width: 100%;
+    background: white;
+    padding: 100px 0;
+}
+.form-section .form-head h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.form-section .form-head .line{
+    height: 3px;
+    width: 78px;
+    background: #ff8b38;
+    margin: 30px auto;
+}
+.form-section .form-head p{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(156, 151, 151);
+}
+.contact-form{
+    margin-top: 70px;
+}
+.form-section .col-md-6 input{
+    border: none;
+    border-bottom: 1px solid rgb(156, 151, 151);
+    border-radius: 0;
+    padding: 8px 0;
+    padding-left: 14px;
+    margin-top: 43px;
+}
+.form-section .col-md-6 textarea{
+    border: none;
+    color: rgb(156, 151, 151);
+    border-bottom: 1px solid;
+    border-radius: 0;
+    resize: none !important;
+}
+.form-section  button{
+    border: none;
+    padding: 13px 16px;
+    margin: 45px auto;
+    background-color: #ff8b38;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.form-section .col-md-6 textarea:focus{
+    box-shadow: none;
+}
+.form-section .col-md-6 input:focus{
+    box-shadow: none;
+}
+/* form section end from here */
+/* end section start from here */
+.end-icon{
+    width: 100%;
+}
+.all-end-icon ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.all-end-icon ul li{
+    display: inline-block;
+    margin-left: 18px;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.all-end-icon ul li a{
+    color: #cccccc;
+}
+.all-end-icon ul p{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(156, 151, 151);
+}
+/* end section start from here */
+
+
+/* ----------------full section are fully complete-------------------- */
